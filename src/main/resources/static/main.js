@@ -6,7 +6,7 @@ $(document).ready(function () {
             dataType: 'JSON',
             success: function (response) {
                 var hash = response.short_link;
-                $("#shorturl").val("http://localhost:8080/?short_link=".concat(hash));
+                $("#shorturl").val("http://localhost:8080/s/".concat(hash));
             }
         });
     });
