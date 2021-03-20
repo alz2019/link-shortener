@@ -1,14 +1,14 @@
 package com.alz2019.linkshortener.controller;
 
 import com.alz2019.linkshortener.service.LinkService;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@Controller
+@RestController
 public class RedirectController {
     private final LinkService linkService;
 
