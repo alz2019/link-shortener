@@ -13,4 +13,4 @@ Link Shortener
 * [PostgreSQL](https://www.postgresql.org/)
 * [Gradle](https://gradle.org/)
 * [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
-* [JQuery](https://jquery.com/)
+* [jQuery](https://jquery.com/)
